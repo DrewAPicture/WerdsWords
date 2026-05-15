@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.allTags
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+layout: layouts/listing.njk
+eleventyComputed:
+  title: "Tagged: {{ tag }}"
+---
