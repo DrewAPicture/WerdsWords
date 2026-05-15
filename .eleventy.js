@@ -41,10 +41,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
-  eleventyConfig.addFilter("plainText", (html, words = 30) => {
-    const text = String(html).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
-    const arr = text.split(" ");
+  eleventyConfig.addFilter("plainText", (html, words = 150) => {
+    const text = String(html || "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/https?:\/\/\S+/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    const arr = text.split(" ").filter(Boolean);
     return arr.length > words ? arr.slice(0, words).join(" ") + "…" : text;
+  });
+
+  eleventyConfig.addFilter("firstImage", (html) => {
+    const match = String(html || "").match(/<img[^>]+src="([^"]+)"/i);
+    return match ? match[1] : null;
   });
 
   // Posts keyed by tag

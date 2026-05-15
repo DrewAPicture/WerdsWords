@@ -6,10 +6,19 @@ class PostsJSON {
     };
   }
 
-  plainText(html, words = 30) {
-    const text = String(html || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  plainText(html, words = 150) {
+    const text = String(html || "")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/https?:\/\/\S+/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
     const arr = text.split(" ").filter(Boolean);
     return arr.length > words ? arr.slice(0, words).join(" ") + "…" : text;
+  }
+
+  firstImage(html) {
+    const match = String(html || "").match(/<img[^>]+src="([^"]+)"/i);
+    return match ? match[1] : "";
   }
 
   render(data) {
@@ -17,7 +26,8 @@ class PostsJSON {
       title: post.data.title || "",
       url: post.url,
       date: new Date(post.date).toISOString().split("T")[0],
-      excerpt: this.plainText(post.templateContent, 30),
+      excerpt: this.plainText(post.templateContent),
+      image: this.firstImage(post.templateContent),
       category: post.data.category || "",
     }));
     return JSON.stringify(posts);

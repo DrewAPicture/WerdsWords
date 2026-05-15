@@ -3,7 +3,11 @@ layout: layouts/base.njk
 ---
 <div id="post-list" class="divide-y divide-stone-200 dark:divide-stone-700">
   {% for post in collections.posts | limit(5) %}
+  {% set postImage = post.templateContent | firstImage %}
   <article class="py-6">
+    {% if postImage %}
+    <img src="{{ postImage }}" alt="" class="w-full h-52 object-cover rounded mb-4" loading="lazy">
+    {% endif %}
     <div class="flex items-center gap-3 mb-2">
       <time class="font-typewriter text-xs text-stone-400 dark:text-stone-500">{{ post.date | dateISO }}</time>
       {% if post.data.category %}
@@ -13,7 +17,10 @@ layout: layouts/base.njk
     <h2 class="font-serif text-xl font-semibold mb-2 leading-snug">
       <a href="{{ post.url }}" class="text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors">{{ post.data.title }}</a>
     </h2>
-    <p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">{{ post.templateContent | plainText(30) }}</p>
+    {% set excerpt = post.templateContent | plainText %}
+    {% if excerpt %}
+    <p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">{{ excerpt }}</p>
+    {% endif %}
   </article>
   {% endfor %}
 </div>

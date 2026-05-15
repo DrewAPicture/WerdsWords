@@ -36,10 +36,14 @@
   }
 
   function renderCard(post) {
+    var imageHtml = post.image
+      ? '<img src="' + esc(post.image) + '" alt="" class="w-full h-52 object-cover rounded mb-4" loading="lazy">'
+      : '';
     var categoryHtml = post.category
       ? '<span class="font-typewriter text-xs text-accent uppercase tracking-widest">' + esc(post.category) + '</span>'
       : '';
     return '<article class="py-6 border-t border-stone-200 dark:border-stone-700">'
+      + imageHtml
       + '<div class="flex items-center gap-3 mb-2">'
       + '<time class="font-typewriter text-xs text-stone-400 dark:text-stone-500">' + esc(post.date) + '</time>'
       + categoryHtml
@@ -47,7 +51,7 @@
       + '<h2 class="font-serif text-xl font-semibold mb-2 leading-snug">'
       + '<a href="' + esc(post.url) + '" class="text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors">' + esc(post.title) + '</a>'
       + '</h2>'
-      + '<p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">' + esc(post.excerpt) + '</p>'
+      + (post.excerpt ? '<p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">' + esc(post.excerpt) + '</p>' : '')
       + '</article>';
   }
 
