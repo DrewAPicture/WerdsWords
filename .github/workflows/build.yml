@@ -1,0 +1,64 @@
+name: Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag (e.g. v1.2.3). Leave blank to auto-increment patch.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Compute tag
+        id: tag
+        run: |
+          if [ -n "${{ inputs.tag }}" ]; then
+            echo "value=${{ inputs.tag }}" >> "$GITHUB_OUTPUT"
+          else
+            LATEST=$(git tag --sort=-version:refname | head -1)
+            if [ -z "$LATEST" ]; then
+              echo "value=v0.0.1" >> "$GITHUB_OUTPUT"
+            else
+              STRIPPED="${LATEST#v}"
+              MAJOR=$(echo "$STRIPPED" | cut -d. -f1)
+              MINOR=$(echo "$STRIPPED" | cut -d. -f2)
+              PATCH=$(echo "$STRIPPED" | cut -d. -f3)
+              PATCH=$((PATCH + 1))
+              echo "value=v${MAJOR}.${MINOR}.${PATCH}" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020  # v4.4.0
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site
+        run: npm run build
+
+      - name: Zip build artifact
+        run: zip -r site.zip _site/
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda  # v3.0.0
+        with:
+          tag_name: ${{ steps.tag.outputs.value }}
+          name: ${{ steps.tag.outputs.value }}
+          generate_release_notes: true
+          files: site.zip
