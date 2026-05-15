@@ -13,9 +13,7 @@ layout: layouts/base.njk
     <h2 class="font-serif text-xl font-semibold mb-2 leading-snug">
       <a href="{{ post.url }}" class="text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors">{{ post.data.title }}</a>
     </h2>
-    {% if post.data.description %}
-    <p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">{{ post.data.description }}</p>
-    {% endif %}
+    <p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">{{ post.templateContent | plainText(30) }}</p>
   </article>
   {% endfor %}
 </div>

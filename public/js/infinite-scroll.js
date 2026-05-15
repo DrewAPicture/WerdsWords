@@ -39,9 +39,6 @@
     var categoryHtml = post.category
       ? '<span class="font-typewriter text-xs text-accent uppercase tracking-widest">' + esc(post.category) + '</span>'
       : '';
-    var descHtml = post.description
-      ? '<p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">' + esc(post.description) + '</p>'
-      : '';
     return '<article class="py-6 border-t border-stone-200 dark:border-stone-700">'
       + '<div class="flex items-center gap-3 mb-2">'
       + '<time class="font-typewriter text-xs text-stone-400 dark:text-stone-500">' + esc(post.date) + '</time>'
@@ -50,7 +47,7 @@
       + '<h2 class="font-serif text-xl font-semibold mb-2 leading-snug">'
       + '<a href="' + esc(post.url) + '" class="text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors">' + esc(post.title) + '</a>'
       + '</h2>'
-      + descHtml
+      + '<p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">' + esc(post.excerpt) + '</p>'
       + '</article>';
   }
 

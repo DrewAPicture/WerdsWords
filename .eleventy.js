@@ -6,6 +6,10 @@ module.exports = function (eleventyConfig) {
   // Serve raw markdown files alongside rendered HTML
   eleventyConfig.addPassthroughCopy({ "content": "." });
 
+  // Serve static assets (CSS, JS, images) from public/ at the site root
+  eleventyConfig.addPassthroughCopy({ "public": "." });
+  eleventyConfig.addWatchTarget("./public/style.css");
+
   // All posts, newest first
   eleventyConfig.addCollection("posts", col =>
     col.getFilteredByGlob("content/**/*.md").sort((a, b) => b.date - a.date)
@@ -37,6 +41,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
+  eleventyConfig.addFilter("plainText", (html, words = 30) => {
+    const text = String(html).replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+    const arr = text.split(" ");
+    return arr.length > words ? arr.slice(0, words).join(" ") + "…" : text;
+  });
+
   // Posts keyed by tag
   eleventyConfig.addCollection("postsByTag", col => {
     const map = {};
@@ -55,7 +65,7 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
     },
-    templateFormats: ["njk", "md", "html"],
+    templateFormats: ["njk", "md", "html", "11ty.js"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
   };
