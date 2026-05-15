@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+<div id="post-list" class="divide-y divide-stone-200 dark:divide-stone-700">
+  {% for post in collections.posts | limit(5) %}
+  <article class="py-6">
+    <div class="flex items-center gap-3 mb-2">
+      <time class="font-typewriter text-xs text-stone-400 dark:text-stone-500">{{ post.date | dateISO }}</time>
+      {% if post.data.category %}
+      <span class="font-typewriter text-xs text-accent uppercase tracking-widest">{{ post.data.category }}</span>
+      {% endif %}
+    </div>
+    <h2 class="font-serif text-xl font-semibold mb-2 leading-snug">
+      <a href="{{ post.url }}" class="text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors">{{ post.data.title }}</a>
+    </h2>
+    {% if post.data.description %}
+    <p class="text-stone-600 dark:text-stone-400 text-sm leading-relaxed">{{ post.data.description }}</p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+<div id="scroll-sentinel" class="py-10 flex justify-center">
+  <span id="loading-indicator" class="font-typewriter text-xs text-stone-400 dark:text-stone-500 hidden">Loading&hellip;</span>
+</div>
+
+<script src="/js/infinite-scroll.js"></script>
