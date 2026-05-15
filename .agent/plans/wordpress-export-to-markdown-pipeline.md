@@ -95,7 +95,7 @@ wp --allow-root --url=https://werdswords.com export \
   --post__in=2,205,1262,1553,1697,1699,1818,1886,1947,2048,1547 \
   --filename_format=export-pages-selected.xml
 
-scp -P 2200 user@yourserver.com:/path/to/wordpress/export-pages-selected.xml ./export-pages-selected.xml
+scp -P <port> user@yourserver.com:/path/to/wordpress/export-pages-selected.xml ./export-pages-selected.xml
 ```
 
 ### Step 2 — Convert XML to markdown ✓
