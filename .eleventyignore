@@ -3,3 +3,7 @@ _site
 public
 .agent
 .claude
+README.md
+AGENTS.md
+CLAUDE.md
+CONTRIBUTING.md

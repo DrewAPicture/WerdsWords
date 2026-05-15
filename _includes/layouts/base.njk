@@ -8,13 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <header>
-    <nav>
+    <nav aria-label="Site">
       <a href="/" class="site-name">{{ site.name }}</a>
       <a href="/tags/">Tags</a>
     </nav>
   </header>
-  <main>
+  <main id="main-content">
     {{ content | safe }}
   </main>
   <footer>
