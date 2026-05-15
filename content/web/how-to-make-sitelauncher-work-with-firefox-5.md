@@ -8,7 +8,7 @@ tags:
   - sitelauncher
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-0.jpg "sitelauncher-0")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-0.jpg)
 
 Being a Web-worker, I rely on my browser to provide the tools I need to work quickly and efficiently. And since I'm an avid Firefox user, the last couple of months have been fraught with turmoil because I was torn between staying with the trends and updating Firefox (first from 3.6 to 4, then recently from 4 to 5) and waiting for the developers of all of my add-ons to keep up.
 
@@ -28,29 +28,29 @@ There are two ways to do this:
 
 » Visit the SiteLauncher Download Page, right-click the Add SiteLauncher to Firefox button and click Save As. Save _sitelauncher2.1.0.xpi_ to your hard disk.
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-1.jpg "sitelauncher-1")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-1.jpg)
 
 » Open the directory where you saved _sitelauncher2.1.0.xpi_ and change the file extension to .zip (_sitelauncher2.1.0.zip_)
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-2.jpg "sitelauncher-2")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-2.jpg)
 
 » **Important:** Open the .zip file in your archival software. **DO NOT UNZIP THE DIRECTORY**.
 
 » Right click on install.rdf and open it in NotePad (or TextEdit on Mac)
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-3.jpg "sitelauncher-3")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-3.jpg)
 
 » Locate the _maxversion_ value and change it from _4.2alpre_ to something above 5. I changed mine to _5.9.9_ to make it compatible all the way to Firefox 6.
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-4.jpg "sitelauncher-4")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-4.jpg)
 
 » Save _install.rdf_ and update the archive
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-5.jpg "sitelauncher-5")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-5.jpg)
 
 » Back in the directory where you saved the original file, change the file extension back to _.xpi_ from _.zip_
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/sitelauncher-6.jpg "sitelauncher-6")
+![](/images/how-to-make-sitelauncher-work-with-firefox-5/sitelauncher-6.jpg)
 
 » All you have to do now, is drag the _sitelauncher2.1.0.xpi_ file over to your Firefox window and it should prompt you to install the add-on.
 

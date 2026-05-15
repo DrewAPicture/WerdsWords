@@ -9,7 +9,10 @@ tags:
   - wordpress
 ---
 
-\[caption id="attachment\_52" align="aligncenter" width="600" caption="Photo by Flickr/gagilas. Used with permission under Creative Commons License."\]![](http://www.werdswords.com/wp-content/uploads/2011/04/unhappy_baby_gagilas-e1303520373857-600x442.jpg "unhappy_baby_gagilas")\[/caption\]
+![](/images/a-trip-to-joomla-and-back/unhappy_baby_gagilas-e1303520373857.jpg)
+
+*Photo by Flickr/gagilas. Used with permission under Creative Commons License.*
+
 
 I was recently named to the [Denver Press Club](http://www.denverpressclub.org) Board of Directors and one of the duties I volunteered for was to take over website updates for the club.
 

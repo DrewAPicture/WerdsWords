@@ -10,7 +10,7 @@ tags:
   - wordpress
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2011/10/irc-chat-600x487.png "irc-chat")I was lurking in the #wordpress support channel on IRC last night and noticed somebody getting the shrug off for a support issue because he wasn't a native English speaker.
+![](/images/dont-let-support-get-lost-in-translation/irc-chat.png)I was lurking in the #wordpress support channel on IRC last night and noticed somebody getting the shrug off for a support issue because he wasn't a native English speaker.
 
 Now, the advice I initially gave him was ridiculed by others in the channel as stupid, but without really knowing the guy's issue I was doing the best I could with what I could decipher from his broken English. And its not like anybody else was giving it a go, so I invited him into a private chat to get a better feeling for his problem.
 

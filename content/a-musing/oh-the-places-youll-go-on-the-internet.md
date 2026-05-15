@@ -17,7 +17,10 @@ tags:
   - shopping
 ---
 
-\[caption id="attachment\_62" align="aligncenter" width="420" caption="Photo by Flickr/James Cridland. Used with permission under Creative Commons License."\]![](http://www.werdswords.com/wp-content/uploads/2011/04/internet_sign_James_Cridland.jpg "internet_sign_James_Cridland")\[/caption\]
+![](/images/oh-the-places-youll-go-on-the-internet/internet_sign_James_Cridland.jpg)
+
+*Photo by Flickr/James Cridland. Used with permission under Creative Commons License.*
+
 
 Sometimes I just reflect on what access and ease the Internet has brought to people's everyday lives.
 

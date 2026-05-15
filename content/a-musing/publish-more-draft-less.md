@@ -8,7 +8,7 @@ tags:
 
 Though my blog subscribers may beg to differ, I actually spend quite a bit of time in the WerdsWords dashboard writing posts. The thing is, I don't publish a lot of the stuff I write.
 
-![](http://werdswords.com/wp-content/uploads/2014/01/Screen-Shot-2014-01-15-at-10.10.42-PM.png)
+![](/images/publish-more-draft-less/Screen-Shot-2014-01-15-at-10.10.42-PM.png)
 
 If I had to really nail it down, I'd say the no. 1 reason I don't publish most posts is that I don't really want to be "that guy" who has a problem with the commonly-championed "thing", whatever that may be.
 

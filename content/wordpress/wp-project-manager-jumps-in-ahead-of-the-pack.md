@@ -41,7 +41,7 @@ Lets go through some of the screens and options and you can form your own opinio
 
 **Project Manager**
 
-![The Project Manager screen](http://werdswords.com/wp-content/uploads/2012/12/main.png "main")
+![The Project Manager screen](/images/wp-project-manager-jumps-in-ahead-of-the-pack/main.png)
 
 If you're a current or former Basecamp user, the Project Manager screen should look familiar, since it looks as if it was literally plucked from Basecamp and inserted verbatim into the WordPress Dashboard.
 
@@ -55,13 +55,13 @@ Clicking through into a project page presents you with a myriad of option screen
 
 **Activity** — When a project page first loads, you land on the Activity tab. This screen shows an activity log of all the recent actions made by you or your project collaborators. The log doesn't update in real-time but it provides a fairly comprehensive guide to what's new with your project.
 
-[![The project activity screen](http://werdswords.com/wp-content/uploads/2012/12/activity-600x258.png "activity")](http://werdswords.com/wp-content/uploads/2012/12/activity.png)
+![The project activity screen](/images/wp-project-manager-jumps-in-ahead-of-the-pack/activity.png)
 
 Something I'd like to see added to this is a "What's new since I last visited" filter.
 
 **Messages** — Messages are the first of several sub-parts to any given project in wP Project Manager. They provide a simple interface for collaborators to communicate.
 
-[![The project messages screen](http://werdswords.com/wp-content/uploads/2012/12/messages-600x172.png "messages")](http://werdswords.com/wp-content/uploads/2012/12/messages.png)
+![The project messages screen](/images/wp-project-manager-jumps-in-ahead-of-the-pack/messages.png)
 
 Adding new messages, you can set a title, write a description, attach files such as mockups or needed documents, assign a milestone (more on that later) and notify other collaborators. Once a message is posted, you can comment on it and even attach files to your comments!
 
@@ -69,11 +69,11 @@ One aspect I think could certainly use improvement is the 'Description' field, h
 
 **Task Lists** — No project management solution is complete without task management, and this plugin doesn't disappoint.
 
-[![The project task lists](http://werdswords.com/wp-content/uploads/2012/12/task_list-600x131.png "task_list")](http://werdswords.com/wp-content/uploads/2012/12/task_list.png)
+![The project task lists](/images/wp-project-manager-jumps-in-ahead-of-the-pack/task_list.png)
 
 Users have the ability to create multiple task lists, each with their own assigned to-do items. Adding a new task list, you can set a title, provide a brief description and assign a project milestone.
 
-[![Adding a new to-do](http://werdswords.com/wp-content/uploads/2012/12/new-todo-300x279.png "new-todo")](http://werdswords.com/wp-content/uploads/2012/12/new-todo.png)Adding new to-dos is straightforward and logical: Write the task, choose the completion date with the date picker and assign it to user. You can also comment on to-dos and again, attach files, which is awesome.
+![Adding a new to-do](/images/wp-project-manager-jumps-in-ahead-of-the-pack/new-todo.png)Adding new to-dos is straightforward and logical: Write the task, choose the completion date with the date picker and assign it to user. You can also comment on to-dos and again, attach files, which is awesome.
 
 There is one feature on this screen that absolutely love and two others that I think are starkly missing.
 
@@ -86,13 +86,13 @@ Another nitpick is that when you've clicked through to a specific task list, the
 
 **Milestones** — When you're setting to-dos and writing messages there's always that nagging need to make sure you're working toward common goals. Creating and assigning milestones effectively allows you to set a completion date for an entire task list.
 
-[![The project milestones screen](http://werdswords.com/wp-content/uploads/2012/12/milestones-600x195.png "milestones")](http://werdswords.com/wp-content/uploads/2012/12/milestones.png)
+![The project milestones screen](/images/wp-project-manager-jumps-in-ahead-of-the-pack/milestones.png)
 
 Each milestone has a title, description and completion date and can be assigned to messages and task lists. Milestones on this screen are ordered chronologically and can be manually marked complete. It would be nice to see a completion bar comparable to the one on task lists screen here.
 
 I would just mention again that I think the ability to set times _as well as dates_ should be on this plugin's roadmap.
 
-**Files** — [![The project files screen](http://werdswords.com/wp-content/uploads/2012/12/files-300x199.png "files")](http://werdswords.com/wp-content/uploads/2012/12/files.png)The final tab in this screen is the Files tab. It is less about action and more about organization. You don't add files on this screen, you view files uploaded on the other screens such as those attached to messages or comments.
+**Files** — ![The project files screen](/images/wp-project-manager-jumps-in-ahead-of-the-pack/files.png)The final tab in this screen is the Files tab. It is less about action and more about organization. You don't add files on this screen, you view files uploaded on the other screens such as those attached to messages or comments.
 
 One nitpick I have with this and other screens that have attachments on them is that when you click on images for instance, you're taken to the file URL. It would be so much more polished to load media in a lightbox, modal or similar.
 

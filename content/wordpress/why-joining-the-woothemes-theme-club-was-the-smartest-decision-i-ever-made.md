@@ -8,7 +8,10 @@ tags:
   - woothemes
 ---
 
-\[caption id="attachment\_30" align="aligncenter" width="600" caption="Photo by Flickr/Titanas. Used with permission under Creative Commons License."\][![](http://www.werdswords.com/wp-content/uploads/2011/04/wordpress_laptop_vert_Titanas-e1303321068775-1024x709.jpg "wordpress_laptop_vert_Titanas")](http://www.werdswords.com/wordpress/why-joining-the-woothemes-theme-club-was-the-smartest-decision-i-ever-made/attachment/wordpress_laptop_vert_titanas/)\[/caption\]
+![](/images/why-joining-the-woothemes-theme-club-was-the-smartest-decision-i-ever-made/wordpress_laptop_vert_Titanas-e1303321068775.jpg)
+
+*Photo by Flickr/Titanas. Used with permission under Creative Commons License.*
+
 
 I first dipped my toe into the [WordPress](http://www.wordpress.org) ocean a few years ago.
 

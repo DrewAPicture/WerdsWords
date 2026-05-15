@@ -5,7 +5,7 @@ tags:
   - podcast
 ---
 
-[![](http://werdswords.com/wp-content/uploads/2015/10/WordPressWeeklyFeaturedImage.jpg)](http://wptavern.com/wpweekly-episode-209-where-is-the-word-press)
+[![](/images/i-was-also-on-wp-taverns-wp-weekly-podcast-last-week/WordPressWeeklyFeaturedImage.jpg)](http://wptavern.com/wpweekly-episode-209-where-is-the-word-press)
 
 > In this episode of WordPress Weekly, Marcus Couch and I are joined by Drew Jaynes, WordPress core contributor. We discuss a wide range of topics, from Jaynes’ opinions on Scott Taylor’s…
 

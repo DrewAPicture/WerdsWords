@@ -26,7 +26,7 @@ In reading through some of her tweets that have been shared and retweeted over t
 
 And it's not simply that the other half of "Team Awesome" is missing, but that it feels like a part of my soul is missing too. I don't know what to do about it other than to press forward and try to carry out the plans we made, and make new ones "with gusto!" as she used to say.
 
-![drew\_kim\_wcsf14\_diag](http://werdswords.com/wp-content/uploads/2015/01/drew_kim_wcsf14_diag-510x661.png)
+![drew\_kim\_wcsf14\_diag](/images/farewell-old-friend/drew_kim_wcsf14_diag.png)
 
 It was a constant joke between us that what Kim lacked in height she completely made up for in talent. As far as I'm concerned, she was a taller person than I in both departments.
 

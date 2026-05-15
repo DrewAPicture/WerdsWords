@@ -8,7 +8,7 @@ tags:
   - widgets
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2012/05/Picture-27-300x165.png "Picture 27")On a project this morning, I had a need to pull in some formatted content into a sidebar. My first inclination was to A) Use a plugin like Query Posts to pull it in or B) Write up a custom widget we could use. I opted for neither.
+![](/images/template-parts-as-widgets/Picture-27.png)On a project this morning, I had a need to pull in some formatted content into a sidebar. My first inclination was to A) Use a plugin like Query Posts to pull it in or B) Write up a custom widget we could use. I opted for neither.
 
 The thing is, we've already got the content formatted into a template part file and the effort involved to roll it into a widget really wouldn't be worth the effort. This isn't a client project, so it doesn't necessarily have to be pretty on the back-end ... it just has to work. So I opted for using `get_template_part()`.
 

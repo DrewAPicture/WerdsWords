@@ -12,7 +12,7 @@ tags:
   - trac
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/Trac_Logo_512x512.preview-150x150.png "Trac_Logo_512x512.preview")According to a [recent](http://core.trac.wordpress.org/ticket/18302) WordPress trac ticket, theme authors could soon be rewarded with a little nugget of functionality that would make using child themes much more extensible.
+![](/images/wordpress-3-3-could-improve-child-theme-integration/Trac_Logo_512x512.preview.png)According to a [recent](http://core.trac.wordpress.org/ticket/18302) WordPress trac ticket, theme authors could soon be rewarded with a little nugget of functionality that would make using child themes much more extensible.
 
 The ticket suggests introducing a function that works similarly to locate\_template(), but rather than returning the path of the file (in the parent theme only), it would return a URI to the file, thus allowing a child theme to override the parent's .js, .css and even image files. The proposed function is called locate\_theme\_file().
 

@@ -18,7 +18,7 @@ I doubt it comes as a great surprise to most plugin developers though, especiall
 
 I just wanted to share with you this morning, a visual representation of what it looks like when one of your plugins hits the 2-years out-of-date mark.
 
-![out\_of\_date\_stats](http://werdswords.com/wp-content/uploads/2015/01/out_of_date_stats.png)
+![out\_of\_date\_stats](/images/keep-plugins-date/out_of_date_stats.png)
 
 This is a screenshot of the download stats for a plugin I maintain. You'll notice that average daily downloads is cut almost in half around the December 10th mark. Up until this morning, the last-updated date was December 8, 2012. It's pretty interesting to see what a difference it makes to have your plugin available in search results.
 

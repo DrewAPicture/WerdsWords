@@ -10,7 +10,10 @@ This year has seen a lot of positive change in the WordPress contributor communi
 
 Take for instance, the appearance this year of two new faces on the credits screen as of WordPress 4.3:
 
-\[caption id="attachment\_1752" align="aligncenter" width="510"\]![Andrea Fercia and Rian Rietveld as recent rockstars on the WordPress 4.3 credits page](http://werdswords.com/wp-content/uploads/2015/08/a11y_credits-510x4074.jpg) Andrea Fercia makes his second appearance and Rian Rietveld her first on the WordPress 4.3 credits screen.\[/caption\]
+![Andrea Fercia and Rian Rietveld as recent rockstars on the WordPress 4.3 credits page](/images/the-year-of-the-wordpress-accessibility-team/a11y_credits.jpg)
+
+*Andrea Fercia makes his second appearance and Rian Rietveld her first on the WordPress 4.3 credits screen.*
+
 
 Andrea Fercia ([@afercia](https://profiles.wordpress.org/afercia)) has made serious waves during the WordPress 4.2 and 4.3 cycles as an accessibility team liaison to the core team. In his time contributing to WordPress, he's injected a considerable amount of valuable feedback and experience – in addition to development chops – to helping make WordPress accessible all-around. I'm excited to see how WordPress will change for the better with Andrea leading the charge.
 

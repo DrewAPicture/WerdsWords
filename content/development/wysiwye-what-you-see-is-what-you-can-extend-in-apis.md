@@ -34,7 +34,7 @@ On the other hand, Affiliate Dashboard API is control-based. This means first- a
 
 <figure>
 
-![](https://werdswords.com/wp-content/uploads/2021/02/593230-statistics-store-credit-1-510x277.png)
+![](/images/wysiwye-what-you-see-is-what-you-can-extend-in-apis/593230-statistics-store-credit-1.png)
 
 <figcaption>
 

@@ -17,7 +17,7 @@ So here we go, prepare yourselves for some epic name-dropping,
 
 In January, I traveled to sunny Chandler, AZ to attend [WordCamp Phoenix](http://2013.phoenix.wordcamp.org/) for the first time. And boy was that really fantastic. Not only did I thoroughly enjoy myself there, but I also met a few people for the first time (in person and otherwise), looking at you Aaron Campbell, Karen Arnold, Mike Schroder, Chris Lema, Sé Reed, Dre Armeda, Brad Parbs, Erick Hitter, and many many others.
 
-[![santan](http://werdswords.com/wp-content/uploads/2013/12/santan-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/santan.png)Thank you Natalie MacLees and Suzette Franck for the wonderful lunch conversations, and for all of the above people — including my friend Kris Lagraff from Denver — for the awesome conversation and libations at none other than the great [SanTan Brewery](http://www.santanbrewing.com/). It was at SanTan that I began my craft beer-logging journey on [Untappd](https://untappd.com/user/DrewAPicture) — in which I've logged 69 unique beers so far since then!
+![santan](/images/whirlwind-wordpress-year/santan.png)Thank you Natalie MacLees and Suzette Franck for the wonderful lunch conversations, and for all of the above people — including my friend Kris Lagraff from Denver — for the awesome conversation and libations at none other than the great [SanTan Brewery](http://www.santanbrewing.com/). It was at SanTan that I began my craft beer-logging journey on [Untappd](https://untappd.com/user/DrewAPicture) — in which I've logged 69 unique beers so far since then!
 
 It was also at WordCamp Phoenix that I first met my now-boss Jake Goldman, and 10up colleagues Eric Mann and Taylor Dewey. Jake had just given what I'd consider to be one of the most original WordCamp talks I've ever heard, entitled [The Core (IA) of WordPress Core](http://wordpress.tv/2013/02/25/jake-goldman-the-core-ia-of-wordpress-core/), a talk about WordPress' data model. Worth the watch if you have time.
 
@@ -25,13 +25,13 @@ Anyway, I'd seen a few tweets go out that [10up](http://10up.com) was hiring and
 
 ### FEBRUARY / MARCH
 
-[![10up-icon](http://werdswords.com/wp-content/uploads/2013/12/10up-icon-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/10up-icon.png)In February, I interviewed at 10up and did a trial project, and by the time March rolled around, I'd [started working part-time](http://werdswords.com/i-got-an-awesome-wordpress-job-at-10up/) as a 10up Web Engineer.
+![10up-icon](/images/whirlwind-wordpress-year/10up-icon.png)In February, I interviewed at 10up and did a trial project, and by the time March rolled around, I'd [started working part-time](http://werdswords.com/i-got-an-awesome-wordpress-job-at-10up/) as a 10up Web Engineer.
 
 Jake generously structured my job responsibilities as such that 10up would donate a sizable chunk of my time to contributing back to the WordPress core project — something I'd been doing for a while up to that point, and it was important to be able to continue.
 
 ### APRIL
 
-[![10up-dev-summit](http://werdswords.com/wp-content/uploads/2013/12/10up-dev-summit-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/10up-dev-summit.png)In April, I moved to working full-time at 10up, and was shortly-after invited to participate in a [3-day 10up developer summit](http://10up.com/blog/developer-summit-wrap-up/) in Portland. It was both an exciting and eye-opening experience for me, and also my first visit to Portland!
+![10up-dev-summit](/images/whirlwind-wordpress-year/10up-dev-summit.png)In April, I moved to working full-time at 10up, and was shortly-after invited to participate in a [3-day 10up developer summit](http://10up.com/blog/developer-summit-wrap-up/) in Portland. It was both an exciting and eye-opening experience for me, and also my first visit to Portland!
 
 I learned so much about scalable JavaScript from Carl Danley and Eric Mann, about building a consistent local workflow with [VVV](https://github.com/10up/varying-vagrant-vagrants) from Jeremy Felt, preprocessors from Tammy Hart, Christopher Cochran, and Kelly Dwan, and a host of other topics and teachers. I also had a great opportunity to meet a bunch of my coworkers in person for the first time. The food trucks, the rain, and Deschutes Brewery pretty much sealed the deal for me on Portland.
 
@@ -39,11 +39,11 @@ Probably one of the greatest benefits I've realized working at 10up is the willi
 
 ### MAY
 
-[![beachpress2](http://werdswords.com/wp-content/uploads/2013/12/beachpress2-150x150.jpg)](http://werdswords.com/wp-content/uploads/2013/12/beachpress2.jpg)
+![beachpress2](/images/whirlwind-wordpress-year/beachpress2.jpg)
 
 In May, I had an opportunity to take part in the first-ever [BeachPress](http://zao.is/2013/03/beachpress-2013/), which was graciously organized by Justin Sainton. It was also my second, albeit short visit to Portland since April. I opted to use BeachPress as a replacement for WordCamp Seattle (sorry Grant) because of the limited funds I had at the time.
 
-[![beachpress](http://werdswords.com/wp-content/uploads/2013/12/beachpress-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/beachpress.png)
+![beachpress](/images/whirlwind-wordpress-year/beachpress.png)
 
 I mean, come on, 3 days in a beach house on the Oregon coast with a bunch of really smart developer types, scotch, Cards Against Humanity and a beach to walk on? Can't beat that. Good times were had all around, and some friends were made along the way. Here's looking at you Grant Landram, Mollie Ruiz-Hopper, Tanner Moushey, Flynn O'Connor, Alex Mills, Justin, Jaffe Worley, Ben Lobaugh, Daniel Bachhuber, Joey Kudish, and others I'm probably forgetting (sorry!).
 
@@ -51,7 +51,7 @@ I mean, come on, 3 days in a beach house on the Oregon coast with a bunch of rea
 
 June brought together what I think may be the largest number of WordPress Docs team members ever in one place in Cincinnati. We constituted the delegation representing WordPress at the [Open Help Conference and Sprints](http://openhelpconference.com/), boasting groups from other open source projects like RedHat and Mozilla, among others.
 
-[![open-help](http://werdswords.com/wp-content/uploads/2013/12/open-help-150x150.jpg)](http://werdswords.com/wp-content/uploads/2013/12/open-help.jpg)It was there I had the profound opportunity to meet Jerry Bates, Kim Parsell, Siobhan McKeown, Maria Scarpello, Hanni Ross, Ryans Markel and Ray, Eric Amundson, and Mike Krapf for the first time in person. We accomplished a lot in those three days, which included devising a [documentation roadmap](http://make.wordpress.org/docs/2013/06/19/docs-sprint-results-and-roadmap/) for the WordPress core project, and assessing results from the recent Codex survey.
+![open-help](/images/whirlwind-wordpress-year/open-help.jpg)It was there I had the profound opportunity to meet Jerry Bates, Kim Parsell, Siobhan McKeown, Maria Scarpello, Hanni Ross, Ryans Markel and Ray, Eric Amundson, and Mike Krapf for the first time in person. We accomplished a lot in those three days, which included devising a [documentation roadmap](http://make.wordpress.org/docs/2013/06/19/docs-sprint-results-and-roadmap/) for the WordPress core project, and assessing results from the recent Codex survey.
 
 It was in Cincinnati that I really formed a bond with Kim Parsell. Kim is what I believe to be one of the most under-celebrated authorities on documentation in the WordPress project today, or any open source project for that matter. She's also one of the most loyal, kind people I have the privilege of calling a friend and colleague. Our progress on the hook docs initiative today is a direct testament to Kim's work ethic.
 
@@ -61,7 +61,10 @@ And as if Kim's work on inline docs weren't enough already, she's is also the ed
 
 In July, 10up kindly sent me to WordCamp San Francisco, which as anyone who has been can tell you, is always a great time. It was actually in Matt's annual [State of the Word](http://wordpress.tv/2013/07/29/matt-mullenweg-state-of-the-word-2013/) address that I discovered I'd been named a "Recent Rockstar" for my recent work on refreshing the menus UI in 3.6.
 
-\[caption id="attachment\_1341" align="alignright" width="150"\][![Photo by Sheri Bigelow.](http://werdswords.com/wp-content/uploads/2013/12/wcsf-150x150.jpg)](http://werdswords.com/wp-content/uploads/2013/12/wcsf.jpg) Photo by Sheri Bigelow.\[/caption\]This was alongside my soon-to-be colleague and friend Adam Silverstein, who had done such phenomenal work on re-imagining the Revisions UI.
+![Photo by Sheri Bigelow.](/images/whirlwind-wordpress-year/wcsf.jpg)
+
+*Photo by Sheri Bigelow.*
+This was alongside my soon-to-be colleague and friend Adam Silverstein, who had done such phenomenal work on re-imagining the Revisions UI.
 
 I should mention that my interest in the 3.6 menus initiative was less-so in the menus UI itself, and more-so in the opportunity to work alongside the force of nature that is Dave Martin. Not to mention the ability to see the transforming effect extensive user testing can have on developing a core feature first-hand. I found both to be extremely rewarding and enlightening.
 
@@ -75,7 +78,7 @@ August was punctuated by a third and several firsts. The third was my last visit
 - Drinking (great) beer at a WordCamp lunch and (finally) meeting Konstantin Obenland at WordCamp Portland
 - Visiting and speaking at my first WordCamp in Vancouver!
 
-[![vancouver](http://werdswords.com/wp-content/uploads/2013/12/vancouver-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/vancouver.png)All told, I flew from Denver to Portland and spent five days there, took the train to Seattle and spent two days there, took a bus to Vancouver and spent three days there, then hitched a ride with Ben and Jaffe back to Seattle for a next-day flight back to Denver.
+![vancouver](/images/whirlwind-wordpress-year/vancouver.png)All told, I flew from Denver to Portland and spent five days there, took the train to Seattle and spent two days there, took a bus to Vancouver and spent three days there, then hitched a ride with Ben and Jaffe back to Seattle for a next-day flight back to Denver.
 
 In the first Seattle leg, I had an opportunity to meet up with 10up colleague and friend Grant Landram, where he introduced me to the deliciousness that is the "Tat'strami" from [Tat's Deli](http://www.tatsdeli.com/). After a last-minute passport snafu in Seattle, I finally managed to board a midnight bus to Vancouver the night before WordCamp.
 
@@ -89,7 +92,7 @@ I also need to extend a big thanks to Ben for the ride back over the border to S
 
 ### SEPTEMBER
 
-[![filter\_big](http://werdswords.com/wp-content/uploads/2013/12/filter_big-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/filter_big.png)In September, I was invited to speak at [WordCamp Albuquerque](http://2013.albuquerque.wordcamp.org/) (in place of Jake who had family obligations) and so I of course did a talk on Filters, entitled There's A Filter for That.
+![filter\_big](/images/whirlwind-wordpress-year/filter_big.png)In September, I was invited to speak at [WordCamp Albuquerque](http://2013.albuquerque.wordcamp.org/) (in place of Jake who had family obligations) and so I of course did a talk on Filters, entitled There's A Filter for That.
 
 It wasn't long before that talk that I had started my ill-fated Filters of the Day series, closely followed by the [inline hook docs](http://make.wordpress.org/core/2013/09/05/add-inline-docs-for-hooks/) initiative that began in 3.7 and has extended all the way to the present day.
 
@@ -99,13 +102,13 @@ I'd like to extend my thanks to Andrew Nacin, Helen, and Sergey Biryukov for the
 
 ### OCTOBER
 
-[![10up-vegas](http://werdswords.com/wp-content/uploads/2013/12/10up-vegas-150x150.jpg)](http://werdswords.com/wp-content/uploads/2013/12/10up-vegas.jpg)October saw me in sunny Las Vegas for an unforgettable 10up company meetup. Thanks to Vasken's good works, we all (or mostly all, sorry Pat :/) ended up in one place for a few days.
+![10up-vegas](/images/whirlwind-wordpress-year/10up-vegas.jpg)October saw me in sunny Las Vegas for an unforgettable 10up company meetup. Thanks to Vasken's good works, we all (or mostly all, sorry Pat :/) ended up in one place for a few days.
 
 Fantastic team dinners were had, coding projects like [Post Customizer](https://github.com/10up/Post-Customizer/) were born, and many lasting friendships were formed. I also played blackjack in a casino for the first time and doubled my money, thanks to some table-side advice from Luke Woodward!
 
 ### NOVEMBER
 
-[![wcden](http://werdswords.com/wp-content/uploads/2013/12/wcden-150x150.png)](http://werdswords.com/wp-content/uploads/2013/12/wcden.png)November finally brought [WordCamp Denver](http://2013.denver.wordcamp.org/) to bear, the first WordCamp I've had the opportunity to co-organize. Boy was that more details to keep track of than I ever imagined. Much love goes out to anybody who organizes a WordCamp, and especially to Corrinda Campbell for taking WCDEN over the finish line!
+![wcden](/images/whirlwind-wordpress-year/wcden.png)November finally brought [WordCamp Denver](http://2013.denver.wordcamp.org/) to bear, the first WordCamp I've had the opportunity to co-organize. Boy was that more details to keep track of than I ever imagined. Much love goes out to anybody who organizes a WordCamp, and especially to Corrinda Campbell for taking WCDEN over the finish line!
 
 It was at WCDEN that I had an opportunity to yet again meet some people in person for the first time, as well as make some great new friends. Sarah Pressler, Walter Breakell, Kevin McKernan, Christy Eller, and many others, here's looking at you! This was also the first WordCamp I managed to convince my long-time friend Barbara Ford to attend. I'm glad she came.
 

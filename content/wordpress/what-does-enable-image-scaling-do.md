@@ -16,7 +16,7 @@ So _why_ would you want to do that? **Smaller images make for faster websites.**
 
 I've worked up a little example to try demonstrating the benefits of scaling down images on your WordPress site.
 
-[![Image scaling comparison](http://werdswords.com/wp-content/uploads/2012/12/enable_image_scaling_stats-510x289.png)](http://werdswords.com/wp-content/uploads/2012/12/enable_image_scaling_stats.png)
+![Image scaling comparison](/images/what-does-enable-image-scaling-do/enable_image_scaling_stats.png)
 
 Let's say you have an image, we'll call it bakery.jpg. You've just downloaded it off of your camera and it has the following stats:
 

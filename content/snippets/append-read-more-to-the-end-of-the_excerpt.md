@@ -5,7 +5,7 @@ tags:
   - the_excerpt
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2011/07/readmore_excerpt.png "readmore_excerpt")
+![](/images/append-read-more-to-the-end-of-the_excerpt/readmore_excerpt.png)
 
 This snippet, when added to your theme's functions.php file, will allow you to append '... Read More' or any other text to the end of your excerpts. Creates a more streamlined look.
 

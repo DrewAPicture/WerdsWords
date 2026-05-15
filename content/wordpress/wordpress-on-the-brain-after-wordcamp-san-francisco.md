@@ -9,7 +9,7 @@ tags:
   - wordcamp
 ---
 
-![](http://www.werdswords.com/wp-content/uploads/2011/08/happiness_bar-600x378.jpg "happiness_bar")
+![](/images/wordpress-on-the-brain-after-wordcamp-san-francisco/happiness_bar.jpg)
 
 Wow, OK, so this is a random collection of thoughts after #WCSF last weekend.
 
