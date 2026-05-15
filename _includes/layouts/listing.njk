@@ -15,7 +15,7 @@ layout: layouts/base.njk
 <ul class="post-list">
   {% for post in displayPosts %}
   <li>
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="post-date">{{ post.date | dateISO }}</span>
     {% if post.data.category %}
     <span class="post-category"><a href="/{{ post.data.category }}/">{{ post.data.category }}</a></span>
     {% endif %}

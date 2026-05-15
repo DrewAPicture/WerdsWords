@@ -31,6 +31,10 @@ module.exports = function (eleventyConfig) {
     posts.filter(p => p.data.category === category)
   );
 
+  eleventyConfig.addFilter("dateISO", date =>
+    new Date(date).toISOString().split("T")[0]
+  );
+
   // Posts keyed by tag
   eleventyConfig.addCollection("postsByTag", col => {
     const map = {};
