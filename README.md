@@ -24,6 +24,6 @@ npm run build
 
 ## License
 
-Code: [MIT](LICENSE) © [Drew A Picture, LLC](https://drewapictl.com)
+**Code** — The software in this repository (templates, config, styles) is licensed under the [MIT License](LICENSE) © Drew A Picture, LLC.
 
-Content: All rights reserved. Posts in `content/` are not covered by the MIT license.
+**Content** — Blog posts and other written works in `content/` are licensed under [CC BY 4.0](LICENSE-CONTENT). You may share and adapt them for any purpose with attribution.
