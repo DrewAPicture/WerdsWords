@@ -21,6 +21,7 @@ WerdsWords 2.0 is a static markdown blog built with Eleventy v3 and Nunjucks. Po
 
 - [Architecture](.agent/context/architecture.md) — directory structure, collections, permalink routing, raw markdown serving
 - [Design Decisions](.agent/context/design-decisions.md) — why Eleventy, why Nunjucks, key trade-offs
+- [Plugin Changelog Updates](.agent/context/plugin-changelog-updates.md) — which plugins to update, where to fetch changelogs, which are sold and frozen
 
 ---
 
