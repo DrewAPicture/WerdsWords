@@ -42,7 +42,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
 
   eleventyConfig.addFilter("plainText", (html, words = 150) => {
-    const text = String(html || "")
+    const src = String(html || "");
+    const firstPara = src.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+    const source = firstPara ? firstPara[1] : src;
+    const text = source
       .replace(/<[^>]+>/g, " ")
       .replace(/https?:\/\/\S+/g, "")
       .replace(/\s+/g, " ")
