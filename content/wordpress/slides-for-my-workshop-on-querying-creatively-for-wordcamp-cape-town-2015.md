@@ -7,7 +7,7 @@ tags:
   - wp_query
 ---
 
-\[embed\]http://www.slideshare.net/DrewAPicture/getting-creative-with-wordpress-queries\[/embed\]
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/1NrNsEFpSHGimv" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> <div style="margin-bottom:5px"><strong><a href="https://www.slideshare.net/slideshow/getting-creative-with-wordpress-queries/52617847" title="Getting Creative with WordPress Queries" target="_blank">Getting Creative with WordPress Queries</a></strong> from <strong><a href="https://www.slideshare.net/DrewAPicture" target="_blank">DrewAPicture</a></strong></div>
 
 From the workshop page on the [WordCamp Cape Town](https://capetown.wordcamp.org/2015) site:
 
