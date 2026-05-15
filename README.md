@@ -4,7 +4,7 @@ The personal blog of Drew Jaynes. Built with [Eleventy](https://www.11ty.dev/).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for build instructions.
 
-## License
+## Licenses
 
 **Code** — The software in this repository (templates, config, styles) is licensed under the [MIT License](LICENSE) © Drew A Picture, LLC.
 
