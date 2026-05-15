@@ -12,7 +12,7 @@
 
 Commit authorization is **task-scoped**: explicit approval to commit during one task does not carry over to follow-up tasks or future sessions. Always assume you do not have commit permission unless the user has said so in the current task.
 
-See full protocol: [`.agent/context/best-practices/best-practices/git-safety-protocol.md`](.agent/context/best-practices/best-practices/git-safety-protocol.md)
+See full protocol: [`.agent/context/best-practices/git-safety-protocol.md`](.agent/context/best-practices/git-safety-protocol.md)
 
 See also: [Sensitive Information](.agent/context/sensitive-information.md) — what to strip and how to redact it
 
@@ -30,10 +30,10 @@ WerdsWords 2.0 is a static markdown blog built with Eleventy v3 and Nunjucks. Po
 
 ## Best Practices
 
-- [Commit Messages](.agent/context/best-practices/best-practices/commit-messages.md) — imperative tense, no emoji, HEREDOC format
-- [Git Safety Protocol](.agent/context/best-practices/best-practices/git-safety-protocol.md) — check working tree, no force push, commit scope
-- [Accessibility](.agent/context/best-practices/best-practices/accessibility.md) — WCAG 2.2 Level AA for all rendered views
-- [GitHub Actions](.agent/context/best-practices/best-practices/github-actions.md) — pin actions to SHAs, keep secrets out of workflow files
+- [Commit Messages](.agent/context/best-practices/commit-messages.md) — imperative tense, no emoji, HEREDOC format
+- [Git Safety Protocol](.agent/context/best-practices/git-safety-protocol.md) — check working tree, no force push, commit scope
+- [Accessibility](.agent/context/best-practices/accessibility.md) — WCAG 2.2 Level AA for all rendered views
+- [GitHub Actions](.agent/context/best-practices/github-actions.md) — pin actions to SHAs, keep secrets out of workflow files
 
 ---
 
