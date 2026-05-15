@@ -28,7 +28,7 @@ wp --allow-root --url=https://werdswords.com export \
   --post_status=publish \
   --filename_format=export.xml
 
-scp -P 2200 user@yourserver.com:/path/to/wordpress/export.xml ./export.xml
+scp -P <port> user@yourserver.com:/path/to/wordpress/export.xml ./export.xml
 ```
 
 ### Step 2 — Convert XML to markdown ✓
