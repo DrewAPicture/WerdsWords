@@ -27,6 +27,10 @@ module.exports = function (eleventyConfig) {
     return [...s].sort();
   });
 
+  eleventyConfig.addFilter("postsByCategory", (posts, category) =>
+    posts.filter(p => p.data.category === category)
+  );
+
   // Posts keyed by tag
   eleventyConfig.addCollection("postsByTag", col => {
     const map = {};

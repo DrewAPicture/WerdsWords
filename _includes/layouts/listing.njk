@@ -3,9 +3,17 @@ layout: layouts/base.njk
 ---
 <h1>{{ title }}</h1>
 
-{% if posts.length %}
+{% if category %}
+  {% set displayPosts = collections.posts | postsByCategory(category) %}
+{% elif tag %}
+  {% set displayPosts = collections.postsByTag[tag] %}
+{% else %}
+  {% set displayPosts = collections.posts %}
+{% endif %}
+
+{% if displayPosts.length %}
 <ul class="post-list">
-  {% for post in posts %}
+  {% for post in displayPosts %}
   <li>
     <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     {% if post.data.category %}
