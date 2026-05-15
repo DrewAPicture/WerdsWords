@@ -8,10 +8,13 @@
 - The working tree is dirty before a branch switch, reset, or merge
 - You are considering a force push — this is never permitted
 - You are unsure whether a destructive action is reversible
+- A file you are about to commit contains sensitive or identifying information (SSH ports, server paths, credentials, local filesystem paths) — strip it first
 
 Commit authorization is **task-scoped**: explicit approval to commit during one task does not carry over to follow-up tasks or future sessions. Always assume you do not have commit permission unless the user has said so in the current task.
 
 See full protocol: [`.agent/context/best-practices/best-practices/git-safety-protocol.md`](.agent/context/best-practices/best-practices/git-safety-protocol.md)
+
+See also: [Sensitive Information](.agent/context/sensitive-information.md) — what to strip and how to redact it
 
 ---
 
