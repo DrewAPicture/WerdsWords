@@ -35,6 +35,8 @@ module.exports = function (eleventyConfig) {
     new Date(date).toISOString().split("T")[0]
   );
 
+  eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
+
   // Posts keyed by tag
   eleventyConfig.addCollection("postsByTag", col => {
     const map = {};

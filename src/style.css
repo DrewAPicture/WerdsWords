@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .skip-link {
+    @apply absolute left-0 top-0 -translate-y-full focus:translate-y-0 px-4 py-2 bg-paper dark:bg-ink text-accent underline z-50 transition-transform duration-100 font-typewriter text-sm;
+  }
+
+  /* Prism overrides for dark mode */
+  .dark pre[class*="language-"],
+  .dark code[class*="language-"] {
+    @apply bg-stone-800 text-stone-100;
+  }
+}
