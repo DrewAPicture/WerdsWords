@@ -33,6 +33,7 @@ WerdsWords 2.0 is a static markdown blog built with Eleventy v3 and Nunjucks. Po
 - [Commit Messages](.agent/context/best-practices/best-practices/commit-messages.md) — imperative tense, no emoji, HEREDOC format
 - [Git Safety Protocol](.agent/context/best-practices/best-practices/git-safety-protocol.md) — check working tree, no force push, commit scope
 - [Accessibility](.agent/context/best-practices/best-practices/accessibility.md) — WCAG 2.2 Level AA for all rendered views
+- [GitHub Actions](.agent/context/best-practices/best-practices/github-actions.md) — pin actions to SHAs, keep secrets out of workflow files
 
 ---
 
