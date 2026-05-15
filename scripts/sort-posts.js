@@ -18,6 +18,11 @@ const IMAGES_DIR = path.resolve("public/images");
 // Remap WordPress category slugs to different Eleventy categories
 const CATEGORY_MAP = {
   "web-design": "wordpress",
+  "stuff": "a-musing",
+  "ideas": "a-musing",
+  "music": "a-musing",
+  "health": "a-musing",
+  "software": "web",
 };
 
 if (!fs.existsSync(INPUT_DIR)) {
