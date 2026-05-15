@@ -8,4 +8,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for build instructions.
 
 **Code** — The software in this repository (templates, config, styles) is licensed under the [MIT License](LICENSE) © Drew A Picture, LLC.
 
-**Content** — Blog posts and other written works in `content/` are licensed under [CC BY 4.0](LICENSE-CONTENT). You may share and adapt them for any purpose with attribution.
+**Content** — Blog posts and other written works in `content/` are licensed under [CC BY 4.0](LICENSE-CONTENT) © Drew A Picture, LLC. You may share and adapt them for any purpose with attribution.
