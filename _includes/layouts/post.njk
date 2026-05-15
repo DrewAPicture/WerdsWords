@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="post-header">
+    <h1>{{ title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: "%Y-%m-%d" }}</time>
+      {% if category %}
+        &mdash; <a href="/{{ category }}/">{{ category }}</a>
+      {% endif %}
+      {% if tags %}
+        &mdash;
+        {% for tag in tags %}
+          <a href="/tags/{{ tag }}/" class="tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+        {% endfor %}
+      {% endif %}
+    </p>
+    <p class="view-source">
+      <a href="{{ page.filePathStem | replace('/content/', '/') }}.md">View source (.md)</a>
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content | safe }}
+  </div>
+</article>
