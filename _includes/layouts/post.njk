@@ -2,26 +2,27 @@
 layout: layouts/base.njk
 ---
 <article>
-  <header class="post-header">
-    <h1>{{ title }}</h1>
-    <p class="post-meta">
-      <time datetime="{{ date | dateISO }}">{{ date | dateISO }}</time>
+  <header class="mb-8 pb-6 border-b border-stone-200 dark:border-stone-700">
+    <h1 class="font-serif text-3xl font-semibold leading-tight mb-4">{{ title }}</h1>
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <time datetime="{{ date | dateISO }}" class="font-typewriter text-xs text-stone-500 dark:text-stone-400">{{ date | dateISO }}</time>
       {% if category %}
-        &mdash; <a href="/{{ category }}/">{{ category }}</a>
+        <a href="/{{ category }}/" class="font-typewriter text-xs text-accent uppercase tracking-widest hover:underline">{{ category }}</a>
       {% endif %}
       {% if tags %}
-        &mdash;
-        {% for tag in tags %}
-          <a href="/tags/{{ tag }}/" class="tag">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-        {% endfor %}
+        <span class="flex flex-wrap gap-1.5">
+          {% for tag in tags %}
+            <a href="/tags/{{ tag }}/" class="font-typewriter text-xs bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 px-2 py-0.5 rounded hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors">{{ tag }}</a>
+          {% endfor %}
+        </span>
       {% endif %}
-    </p>
-    <p class="view-source">
-      <a href="{{ page.filePathStem | replace('/content/', '/') }}.md">View source (.md)</a>
+    </div>
+    <p class="mt-3">
+      <a href="{{ page.filePathStem | replace('/content/', '/') }}.md" class="font-typewriter text-xs text-stone-400 dark:text-stone-500 hover:text-accent transition-colors">View source (.md)</a>
     </p>
   </header>
 
-  <div class="post-content">
+  <div class="prose prose-stone dark:prose-invert max-w-none prose-headings:font-serif prose-a:text-accent prose-a:no-underline hover:prose-a:underline prose-code:font-typewriter prose-pre:bg-stone-100 dark:prose-pre:bg-stone-800">
     {{ content | safe }}
   </div>
 </article>

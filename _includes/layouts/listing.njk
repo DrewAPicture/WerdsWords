@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
+<h1 class="font-typewriter text-2xl font-bold mb-8 pb-4 border-b border-stone-200 dark:border-stone-700">{{ title }}</h1>
 
 {% if category %}
   {% set displayPosts = collections.posts | postsByCategory(category) %}
@@ -12,17 +12,14 @@ layout: layouts/base.njk
 {% endif %}
 
 {% if displayPosts.length %}
-<ul class="post-list">
+<ul class="divide-y divide-stone-200 dark:divide-stone-700">
   {% for post in displayPosts %}
-  <li>
-    <span class="post-date">{{ post.date | dateISO }}</span>
-    {% if post.data.category %}
-    <span class="post-category"><a href="/{{ post.data.category }}/">{{ post.data.category }}</a></span>
-    {% endif %}
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  <li class="py-3 flex items-baseline gap-4">
+    <time class="font-typewriter text-xs text-stone-400 dark:text-stone-500 whitespace-nowrap shrink-0">{{ post.date | dateISO }}</time>
+    <a href="{{ post.url }}" class="font-serif text-ink dark:text-paper hover:text-accent dark:hover:text-accent transition-colors leading-snug">{{ post.data.title }}</a>
   </li>
   {% endfor %}
 </ul>
 {% else %}
-<p>No posts yet.</p>
+<p class="text-stone-500 dark:text-stone-400 font-typewriter text-sm">No posts yet.</p>
 {% endif %}
