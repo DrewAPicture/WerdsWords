@@ -1,6 +1,6 @@
 (function () {
   var posts = [];
-  var offset = 5;
+  var offset = 7;
   var BATCH = 5;
   var postList = document.getElementById('post-list');
   var sentinel = document.getElementById('scroll-sentinel');

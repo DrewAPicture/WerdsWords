@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 ---
 <div id="post-list" class="divide-y divide-stone-200 dark:divide-stone-700">
-  {% for post in collections.posts | limit(5) %}
+  {% for post in collections.posts | limit(7) %}
   {% set postImage = post.templateContent | firstImage %}
   <article class="py-6">
     {% if postImage %}
