@@ -15,6 +15,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: WerdsWords.com
 
     steps:
       - name: Determine tag
